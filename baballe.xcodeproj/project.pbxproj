@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFD12E6215C1B9600000F70B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD12E6115C1B9600000F70B /* UIKit.framework */; };
+		DFD12E6415C1B9600000F70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD12E6315C1B9600000F70B /* Foundation.framework */; };
+		DFD12E6615C1B9610000F70B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD12E6515C1B9600000F70B /* CoreGraphics.framework */; };
+		DFD12E6C15C1B9610000F70B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFD12E6A15C1B9610000F70B /* InfoPlist.strings */; };
+		DFD12E6E15C1B9610000F70B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD12E6D15C1B9610000F70B /* main.m */; };
+		DFD12E7215C1B9610000F70B /* VSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD12E7115C1B9610000F70B /* VSAppDelegate.m */; };
+		DFD12E7515C1B9610000F70B /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD12E7415C1B9610000F70B /* VSViewController.m */; };
+		DFD12E7815C1B9610000F70B /* VSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD12E7615C1B9610000F70B /* VSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFD12E5D15C1B9600000F70B /* baballe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baballe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD12E6115C1B9600000F70B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFD12E6315C1B9600000F70B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFD12E6515C1B9600000F70B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFD12E6915C1B9610000F70B /* baballe-Info.plist */ = {isa = PBXFileReference; path = "baballe-Info.plist"; sourceTree = "<group>"; };
+		DFD12E6B15C1B9610000F70B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFD12E6D15C1B9610000F70B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFD12E6F15C1B9610000F70B /* baballe-Prefix.pch */ = {isa = PBXFileReference; path = "baballe-Prefix.pch"; sourceTree = "<group>"; };
+		DFD12E7015C1B9610000F70B /* VSAppDelegate.h */ = {isa = PBXFileReference; path = VSAppDelegate.h; sourceTree = "<group>"; };
+		DFD12E7115C1B9610000F70B /* VSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSAppDelegate.m; sourceTree = "<group>"; };
+		DFD12E7315C1B9610000F70B /* VSViewController.h */ = {isa = PBXFileReference; path = VSViewController.h; sourceTree = "<group>"; };
+		DFD12E7415C1B9610000F70B /* VSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSViewController.m; sourceTree = "<group>"; };
+		DFD12E7715C1B9610000F70B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD12E5A15C1B9600000F70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD12E6215C1B9600000F70B /* UIKit.framework in Frameworks */,
+				DFD12E6415C1B9600000F70B /* Foundation.framework in Frameworks */,
+				DFD12E6615C1B9610000F70B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD12E5215C1B9600000F70B = {
+			isa = PBXGroup;
+			children = (
+				DFD12E6715C1B9610000F70B /* baballe */,
+				DFD12E6015C1B9600000F70B /* Frameworks */,
+				DFD12E5E15C1B9600000F70B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD12E5E15C1B9600000F70B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12E5D15C1B9600000F70B /* baballe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD12E6015C1B9600000F70B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12E6115C1B9600000F70B /* UIKit.framework */,
+				DFD12E6315C1B9600000F70B /* Foundation.framework */,
+				DFD12E6515C1B9600000F70B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD12E6715C1B9610000F70B /* baballe */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12E7015C1B9610000F70B /* VSAppDelegate.h */,
+				DFD12E7115C1B9610000F70B /* VSAppDelegate.m */,
+				DFD12E7315C1B9610000F70B /* VSViewController.h */,
+				DFD12E7415C1B9610000F70B /* VSViewController.m */,
+				DFD12E7615C1B9610000F70B /* VSViewController.xib */,
+				DFD12E6815C1B9610000F70B /* Supporting Files */,
+			);
+			path = baballe;
+			sourceTree = "<group>";
+		};
+		DFD12E6815C1B9610000F70B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD12E6915C1B9610000F70B /* baballe-Info.plist */,
+				DFD12E6A15C1B9610000F70B /* InfoPlist.strings */,
+				DFD12E6D15C1B9610000F70B /* main.m */,
+				DFD12E6F15C1B9610000F70B /* baballe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD12E5C15C1B9600000F70B /* baballe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD12E7B15C1B9610000F70B /* Build configuration list for PBXNativeTarget "baballe" */;
+			buildPhases = (
+				DFD12E5915C1B9600000F70B /* Sources */,
+				DFD12E5A15C1B9600000F70B /* Frameworks */,
+				DFD12E5B15C1B9600000F70B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baballe;
+			productName = baballe;
+			productReference = DFD12E5D15C1B9600000F70B /* baballe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD12E5415C1B9600000F70B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DFD12E5715C1B9600000F70B /* Build configuration list for PBXProject "baballe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFD12E5215C1B9600000F70B;
+			productRefGroup = DFD12E5E15C1B9600000F70B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD12E5C15C1B9600000F70B /* baballe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD12E5B15C1B9600000F70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD12E6C15C1B9610000F70B /* InfoPlist.strings in Resources */,
+				DFD12E7815C1B9610000F70B /* VSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD12E5915C1B9600000F70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD12E6E15C1B9610000F70B /* main.m in Sources */,
+				DFD12E7215C1B9610000F70B /* VSAppDelegate.m in Sources */,
+				DFD12E7515C1B9610000F70B /* VSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFD12E6A15C1B9610000F70B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD12E6B15C1B9610000F70B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFD12E7615C1B9610000F70B /* VSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD12E7715C1B9610000F70B /* en */,
+			);
+			name = VSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD12E7915C1B9610000F70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFD12E7A15C1B9610000F70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD12E7C15C1B9610000F70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baballe/baballe-Prefix.pch";
+				INFOPLIST_FILE = "baballe/baballe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFD12E7D15C1B9610000F70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baballe/baballe-Prefix.pch";
+				INFOPLIST_FILE = "baballe/baballe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD12E5715C1B9600000F70B /* Build configuration list for PBXProject "baballe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD12E7915C1B9610000F70B /* Debug */,
+				DFD12E7A15C1B9610000F70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD12E7B15C1B9610000F70B /* Build configuration list for PBXNativeTarget "baballe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD12E7C15C1B9610000F70B /* Debug */,
+				DFD12E7D15C1B9610000F70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD12E5415C1B9600000F70B /* Project object */;
+}
