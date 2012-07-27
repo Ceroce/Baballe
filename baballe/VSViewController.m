@@ -7,8 +7,11 @@
 //
 
 #import "VSViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation VSViewController
+
+@synthesize displayLink;
 
 - (void)didReceiveMemoryWarning
 {
@@ -21,7 +24,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(_displayLinkDidFire:)];
+    [displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+}
+
+- (void)_displayLinkDidFire:(CADisplayLink *)sender {
+    [self.view setNeedsDisplay];
 }
 
 - (void)viewDidUnload
@@ -53,8 +62,8 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
+
 
 @end

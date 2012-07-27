@@ -10,4 +10,6 @@
 
 @interface VSViewController : UIViewController
 
+@property (strong, nonatomic) CADisplayLink * displayLink;
+
 @end
